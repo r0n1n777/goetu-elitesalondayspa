@@ -1,0 +1,73 @@
+.sticky-offset {
+    top: 100px;
+    z-index: 1000;
+}
+
+.mont-light {
+    font-family: 'Mont-Light';
+}
+
+.text-xl {
+    font-size: 3rem;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-content {
+    position: absolute;
+    top: 0;
+}
+
+.section-menu {
+    background-image: url('../images/home/section-menu/bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-menu h3 {
+    font-family: 'Mont-Light';
+}
+
+.rounded-thumbnail {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+// Services
+
+.services-header {
+    background-image: url('../images/services/header-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+// Contact
+
+.contact-header {
+    background-image: url('../images/contact/header-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+// Rate
+
+.rate-header {
+    background-image: url('../images/rate/header-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.social-media {
+    background-image: url('../images/rate/social-media-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
