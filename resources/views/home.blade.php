@@ -17,19 +17,19 @@
         <div class="carousel-item active">
             <img src="{{ asset('images/home/carousel/1.webp') }}" class="opacity-75 d-block w-100">
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
-                <h1 class="text-white">BOOK AN APPOINTMENT</h1>
+                <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary">
+                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
         </div>
-        <div class="carousel-item">
-            <img src="{{ asset('images/gallery/store/3.webp') }}" class="d-block w-100">
+        <div class="carousel-item bg-black">
+            <img src="{{ asset('images/gallery/store/3.webp') }}" class="opacity-50 d-block w-100">
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
-                <h1 class="text-dark bg-white p-1 rounded">BOOK AN APPOINTMENT</h1>
+                <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary">
+                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
@@ -37,19 +37,19 @@
         <div class="carousel-item">
             <img src="{{ asset('images/home/carousel/2.webp') }}" class="opacity-75 d-block w-100">
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
-                <h1 class="text-white">BOOK AN APPOINTMENT</h1>
+                <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary">
+                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
         </div>
-        <div class="carousel-item">
-            <img src="{{ asset('images/gallery/store/6.webp') }}" class="d-block w-100">
+        <div class="carousel-item bg-black">
+            <img src="{{ asset('images/gallery/store/6.webp') }}" class="opacity-50 d-block w-100">
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
-                <h1 class="text-dark bg-white p-1 rounded">BOOK AN APPOINTMENT</h1>
+                <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary">
+                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
@@ -57,19 +57,19 @@
         <div class="carousel-item">
             <img src="{{ asset('images/home/carousel/3.webp') }}" class="opacity-75 d-block w-100">
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
-                <h1 class="text-white">BOOK AN APPOINTMENT</h1>
+                <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary">
+                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
         </div>
-        <div class="carousel-item">
-            <img src="{{ asset('images/gallery/store/10.webp') }}" class="d-block w-100">
+        <div class="carousel-item bg-black">
+            <img src="{{ asset('images/gallery/store/10.webp') }}" class="opacity-50 d-block w-100">
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
-                <h1 class="text-dark bg-white p-1 rounded">BOOK AN APPOINTMENT</h1>
+                <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary">
+                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
@@ -77,9 +77,9 @@
         <div class="carousel-item">
             <img src="{{ asset('images/home/carousel/4.webp') }}" class="opacity-75 d-block w-100">
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
-                <h1 class="text-white">BOOK AN APPOINTMENT</h1>
+                <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary">
+                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
@@ -140,11 +140,15 @@
 <div class="p-5 bg-warning" data-aos="fade-left" data-aos-duration="1000">
     <div class="container">
         <div class="row bg-white g-3">
-            <div class="col-md-6 col-sm-12 p-3">
+            <div class="col-md-6 col-sm-12 p-5">
                 <h1 class="mont-light text-xl">Elite Salon Experience</h1>
-                <p>When walking through our door, you will always have a chance to be served with the best quality and at decent prices. Hundreds of beautiful and stylish nail models along with numerous gel colors and many other beauty services are available for you to choose freely!
-                    Elite Salon & Day Spa understands that Safety and Sanitation are very important to its customers. Our implements, equipment, and electrical instruments are always thoroughly cleaned and subjected to an approved sanitizing and disinfecting process before being reused. Buffers and files are used only once, then discarded. All pedicure procedures are performed with liner protection. Our staffs were trained to follow a proper sanitization protocol that puts our customer’s cleanliness as the number one priority.
-                    If you're in need of Nails treatments or wish to know why so many Gilbert residents come to Elite Salon & Day Spa, come to visit us today.</p>
+                <p>
+                    When walking through our door, you will always have a chance to be served with the best quality and at decent prices. Hundreds of beautiful and stylish nail models along with numerous gel colors and many other beauty services are available for you to choose freely!
+                    <br><br>
+                    Elite Salon & Day Spa understands that Safety and Sanitation are very important to its customers. Our implements, equipment, and electrical instruments are always thoroughly cleaned and subjected to an approved sanitizing and disinfecting process before being reused. Buffers and files are used only once, then discarded. All pedicure procedures are performed with liner protection. Our staffs were trained to follow a proper sanitization protocol that puts our customer's cleanliness as the number one priority.
+                    <br><br>
+                    If you're in need of Nails treatments or wish to know why so many Gilbert residents come to Elite Salon & Day Spa, come to visit us today.
+                </p>
             </div>
             <div class="col-md-6 col-sm-12 p-3">
                 <img src="{{ asset('images/home/caption-photo.webp') }}" class="img-fluid">

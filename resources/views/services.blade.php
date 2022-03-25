@@ -44,7 +44,7 @@
         <div class="card mb-3" data-aos="fade-left" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
-                    <img src="{{ asset('images/services/manicure.webp') }}" class="img-fluid rounded-start sticky-top sticky-offset">
+                    <img src="{{ asset('images/services/manicure.webp') }}" class="img-fluid rounded-start h-100">
                 </div>
                 <div class="col-md-7">
                     <div class="card-body">
@@ -82,7 +82,7 @@
         <div class="card mb-3" data-aos="fade-right" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
-                    <img src="{{ asset('images/services/pedicure.webp') }}" class="img-fluid rounded-start sticky-top sticky-offset">
+                    <img src="{{ asset('images/services/pedicure.webp') }}" class="img-fluid rounded-start h-100">
                 </div>
                 <div class="col-md-7">
                     <div class="card-body">
@@ -176,7 +176,7 @@
         <div class="card mb-3" data-aos="fade-left" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
-                    <img src="{{ asset('images/services/nail-enhancements.webp') }}" class="img-fluid rounded-start sticky-top sticky-offset">
+                    <img src="{{ asset('images/services/nail-enhancements.webp') }}" class="img-fluid rounded-start h-100">
                 </div>
                 <div class="col-md-7">
                     <div class="card-body">
@@ -287,7 +287,7 @@
         <div class="card mb-3" data-aos="fade-right" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
-                    <img src="{{ asset('images/services/body-care.webp') }}" class="img-fluid rounded-start sticky-top sticky-offset">
+                    <img src="{{ asset('images/services/body-care.webp') }}" class="img-fluid rounded-start h-100">
                 </div>
                 <div class="col-md-7">
                     <div class="card-body">
@@ -371,7 +371,7 @@
         <div class="card mb-3" data-aos="fade-left" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
-                    <img src="{{ asset('images/services/children.webp') }}" class="img-fluid rounded-start sticky-top sticky-offset">
+                    <img src="{{ asset('images/services/children.webp') }}" class="img-fluid rounded-start h-100">
                 </div>
                 <div class="col-md-7">
                     <div class="card-body">
@@ -415,7 +415,7 @@
         <div class="card mb-3" data-aos="fade-right" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
-                    <img src="{{ asset('images/services/eyelash-extensions.webp') }}" class="img-fluid rounded-start sticky-top sticky-offset">
+                    <img src="{{ asset('images/services/eyelash-extensions.webp') }}" class="img-fluid rounded-start h-100">
                 </div>
                 <div class="col-md-7">
                     <div class="card-body">
@@ -442,7 +442,7 @@
         <div class="card mb-3" data-aos="fade-left" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
-                    <img src="{{ asset('images/services/additional-services.webp') }}" class="img-fluid rounded-start sticky-top sticky-offset">
+                    <img src="{{ asset('images/services/additional-services.webp') }}" class="img-fluid rounded-start h-100">
                 </div>
                 <div class="col-md-7">
                     <div class="card-body">

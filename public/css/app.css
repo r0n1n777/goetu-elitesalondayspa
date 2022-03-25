@@ -11298,6 +11298,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  overflow-x: hidden;
+}
+
 .sticky-offset {
   top: 100px;
   z-index: 1000;
@@ -11307,8 +11311,12 @@ textarea.form-control-lg {
   font-family: "Mont-Light";
 }
 
+.text-lg {
+  font-size: 1.5rem !important;
+}
+
 .text-xl {
-  font-size: 3rem;
+  font-size: 3rem !important;
 }
 
 .carousel-item {
@@ -11331,6 +11339,10 @@ textarea.form-control-lg {
   font-family: "Mont-Light";
 }
 
+.section-menu img {
+  max-width: 150px;
+}
+
 .rounded-thumbnail {
   width: 200px;
   height: 200px;
@@ -11343,6 +11355,11 @@ textarea.form-control-lg {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.services img {
+  object-fit: cover;
+  -o-object-fit: cover;
 }
 
 .contact-header {
