@@ -63,9 +63,15 @@
                             <a href="{{ route('contact') }}" class="mb-2 text-decoration-none text-secondary">CONTACT US</a>
                             <span class="mb-2 text-secondary">FOLLOW US</span>
                             <div>
-                                <img src="{{ asset('images/facebook.webp') }}" width="30px">
-                                <img src="{{ asset('images/instagram.webp') }}" width="30px">
-                                <img src="{{ asset('images/yelp.webp') }}" width="30px">
+                                <a href="https://www.facebook.com/elitesalondayspa/" target="_blank">
+                                    <img src="{{ asset('images/facebook.webp') }}" width="30px">
+                                </a>
+                                <a href="https://www.instagram.com/elitesalonanddayspa/" target="_blank">
+                                    <img src="{{ asset('images/instagram.webp') }}" width="30px">
+                                </a>
+                                <a href="https://www.yelp.com/biz/elite-salon-day-spa-gilbert" target="_blank">
+                                    <img src="{{ asset('images/yelp.webp') }}" width="30px">
+                                </a>
                             </div>
                         </div>
                     </div>

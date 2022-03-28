@@ -36,9 +36,15 @@
         <h1 class="h1 text-white text-xl text-center">GIVE US YOUR FEEDBACK</h1>
         <div class="d-flex align-items-center justify-content-center">
             <div class="w-50 text-center">
-                <img src="{{ asset('images/facebook.webp') }}" width="70px">
-                <img src="{{ asset('images/yelp.webp') }}" width="70px">
-                <img src="{{ asset('images/instagram.webp') }}" width="70px">
+                <a href="https://www.facebook.com/elitesalondayspa/" target="_blank">
+                    <img src="{{ asset('images/facebook.webp') }}" width="70px">
+                </a>
+                <a href="https://www.instagram.com/elitesalonanddayspa/" target="_blank">
+                    <img src="{{ asset('images/yelp.webp') }}" width="70px">
+                </a>
+                <a href="https://www.yelp.com/biz/elite-salon-day-spa-gilbert" target="_blank">
+                    <img src="{{ asset('images/instagram.webp') }}" width="70px">
+                </a>
             </div>
         </div>
     </div>
