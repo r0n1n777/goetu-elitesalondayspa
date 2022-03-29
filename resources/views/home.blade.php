@@ -19,7 +19,7 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
@@ -29,7 +29,7 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
@@ -39,7 +39,7 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
@@ -49,7 +49,7 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
@@ -59,7 +59,7 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
@@ -69,7 +69,7 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
@@ -79,7 +79,7 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
                     BOOK ONLINE
                 </a>
             </div>
@@ -95,49 +95,60 @@
     </button>
 </div>
 
+
 <div class="p-5 section-menu">
     <div class="container">
         <div class="row g-5">
-            <div class="col-md-4 col-sm-6 col-xs-6">
-                <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="{{ asset('images/home/section-menu/giftcard.webp') }}" class="img-fluid">
-                    <h3 class="text-secondary">GIFT CARDS</h3>
-                </div>
+            <div class="col-md-4 col-sm-6 col-xs-6" data-tilt>
+                <a href="{{ route('promo') }}">
+                    <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000">
+                        <img src="{{ asset('images/home/section-menu/giftcard.webp') }}" class="img-fluid">
+                        <h3 class="text-secondary">GIFT CARDS</h3>
+                    </div>
+                </a>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-6">
-                <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                    <img src="{{ asset('images/home/section-menu/book.webp') }}" class="img-fluid">
-                    <h3 class="text-secondary">BOOK ONLINE</h3>
-                </div>
+            <div class="col-md-4 col-sm-6 col-xs-6" data-tilt>
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank">
+                    <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                        <img src="{{ asset('images/home/section-menu/book.webp') }}" class="img-fluid">
+                        <h3 class="text-secondary">BOOK ONLINE</h3>
+                    </div>
+                </a>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-6">
-                <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                    <img src="{{ asset('images/home/section-menu/location.webp') }}" class="img-fluid">
-                    <h3 class="text-secondary">LOCATION</h3>
-                </div>
+            <div class="col-md-4 col-sm-6 col-xs-6" data-tilt>
+                <a href="{{ route('contact') }}">
+                    <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <img src="{{ asset('images/home/section-menu/location.webp') }}" class="img-fluid">
+                        <h3 class="text-secondary">LOCATION</h3>
+                    </div>
+                </a>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-6">
+            <div class="col-md-4 col-sm-6 col-xs-6" data-tilt>
                 <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                     <img src="{{ asset('images/home/section-menu/cart.webp') }}" class="img-fluid">
                     <h3 class="text-secondary">SHOP</h3>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-6">
-                <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                    <h3 class="text-secondary border border-secondary rounded-pill p-3">FOLLOW US</h3>
-                </div>
+            <div class="col-md-4 col-sm-6 col-xs-6" data-tilt>
+                <a href="{{ route('rate') }}/#follow-us">
+                    <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <h3 class="text-secondary border border-secondary rounded-pill p-3">FOLLOW US</h3>
+                    </div>
+                </a>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-6">
-                <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                    <img src="{{ asset('images/home/section-menu/rate.webp') }}" class="img-fluid">
-                    <h3 class="text-secondary">RATE US</h3>
-                </div>
+            <div class="col-md-4 col-sm-6 col-xs-6" data-tilt>
+                <a href="{{ route('rate') }}">
+                    <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                        <img src="{{ asset('images/home/section-menu/rate.webp') }}" class="img-fluid">
+                        <h3 class="text-secondary">RATE US</h3>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
 </div>
 
-<div class="p-5 bg-warning" data-aos="fade-left" data-aos-duration="1000">
+<div class="p-5 bg-warning" data-aos="fade-left" data-aos-duration="1000" id="about-us">
     <div class="container">
         <div class="row bg-white g-3">
             <div class="col-md-6 col-sm-12 p-5">

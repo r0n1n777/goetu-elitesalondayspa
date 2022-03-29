@@ -26,12 +26,14 @@
             <img src="{{ asset('images/rate/star.webp') }}" class="rate-star" id="2" width="120px">
             <img src="{{ asset('images/rate/star.webp') }}" class="rate-star" id="3" width="120px">
             <img src="{{ asset('images/rate/star.webp') }}" class="rate-star" id="4" width="120px">
-            <img src="{{ asset('images/rate/star.webp') }}" class="rate-star" id="5" width="120px">
+            <a href="https://www.google.com/search?source=hp&ei=RhMMW4_SKc3S8wWM-Ido&q=Elite+Salon+Day+Spa+85234&oq=Elite+Salon+Day+Spa+85234&gs_l=psy-ab.3...4284.14973.0.15841.4.3.0.0.0.0.760.943.2j6-1.3.0....0...1c.1.64.psy-ab..1.0.0.0...0.7X1fE7w_cT0#lrd=0x872baeb670a64445:0x6256af26f84fdc6,3,,," target="_blank">
+                <img src="{{ asset('images/rate/star.webp') }}" class="rate-star" id="5" width="120px">
+            </a>
         </div>
     </div>
 </div>
 
-<div class="p-5 social-media bg-black" data-aos="fade-up" data-aos-duration="1000">
+<div class="p-5 social-media bg-black" data-aos="fade-up" data-aos-duration="1000" id="follow-us">
     <div class="container d-flex flex-column justify-content-center">
         <h1 class="h1 text-white text-xl text-center">GIVE US YOUR FEEDBACK</h1>
         <div class="d-flex align-items-center justify-content-center">
@@ -44,6 +46,9 @@
                 </a>
                 <a href="https://www.yelp.com/biz/elite-salon-day-spa-gilbert" target="_blank">
                     <img src="{{ asset('images/instagram.webp') }}" width="70px">
+                </a>
+                <a href="https://www.google.com/search?source=hp&ei=RhMMW4_SKc3S8wWM-Ido&q=Elite+Salon+Day+Spa+85234&oq=Elite+Salon+Day+Spa+85234&gs_l=psy-ab.3...4284.14973.0.15841.4.3.0.0.0.0.760.943.2j6-1.3.0....0...1c.1.64.psy-ab..1.0.0.0...0.7X1fE7w_cT0#lrd=0x872baeb670a64445:0x6256af26f84fdc6,1,,," target="_blank">
+                    <img src="{{ asset('images/google.webp') }}" width="70px">
                 </a>
             </div>
         </div>
