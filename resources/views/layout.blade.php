@@ -3,6 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Elite Salon & Day Spa understands that Safety and Sanitation are very important to its customers. Our implements, equipment, and electrical instruments are always thoroughly cleaned and subjected to an approved sanitizing and disinfecting process before being reused. Buffers and files are used only once, then discarded. All pedicure procedures are performed with liner protection. Our staffs were trained to follow a proper sanitization protocol that puts our customer's cleanliness as the number one priority.">
+        <meta name="keywords" content="manicure,pedicure,eyelash extensions,body care,nails,spa,gilbert az,nail salon arizona,nail salon gilbert">
+        <meta name="theme-color" content="#30261d">
+        <meta name="google-site-verification" content="rkGjoXf4iGULmkxU1nZZNJzH-GXyZVf9lPRgBwlhM_s">
 
         <title>@yield('title')</title>
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
