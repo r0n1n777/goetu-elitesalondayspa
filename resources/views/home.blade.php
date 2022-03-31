@@ -19,8 +19,8 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
-                    BOOK ONLINE
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
                 </a>
             </div>
         </div>
@@ -29,18 +29,18 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
-                    BOOK ONLINE
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
                 </a>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item bg-primary">
             <img src="{{ asset('images/home/carousel/2.webp') }}" class="opacity-75 d-block w-100">
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
-                    BOOK ONLINE
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
                 </a>
             </div>
         </div>
@@ -49,18 +49,18 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
-                    BOOK ONLINE
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
                 </a>
             </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item bg-primary">
             <img src="{{ asset('images/home/carousel/3.webp') }}" class="opacity-75 d-block w-100">
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
-                    BOOK ONLINE
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
                 </a>
             </div>
         </div>
@@ -69,8 +69,8 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
-                    BOOK ONLINE
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
                 </a>
             </div>
         </div>
@@ -79,8 +79,8 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg">
-                    BOOK ONLINE
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
                 </a>
             </div>
         </div>
@@ -109,9 +109,9 @@
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6" data-tilt>
                 <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank">
-                    <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center border border-secondary shadow-sm rounded" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                         <img src="{{ asset('images/home/section-menu/book.webp') }}" class="img-fluid">
-                        <h3 class="text-secondary">BOOK ONLINE</h3>
+                        <h3 class="text-secondary"><b>BOOK ONLINE</b></h3>
                     </div>
                 </a>
             </div>
@@ -124,10 +124,12 @@
                 </a>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6" data-tilt>
-                <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                    <img src="{{ asset('images/home/section-menu/cart.webp') }}" class="img-fluid">
-                    <h3 class="text-secondary">SHOP</h3>
-                </div>
+                <a href="{{ route('services') }}">
+                    <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="{{ asset('images/home/section-menu/cart.webp') }}" class="img-fluid">
+                        <h3 class="text-secondary">SERVICES</h3>
+                    </div>
+                </a>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6" data-tilt>
                 <a href="{{ route('rate') }}/#follow-us">
@@ -150,10 +152,10 @@
 
 <div class="p-5 bg-warning" data-aos="fade-left" data-aos-duration="1000" id="about-us">
     <div class="container">
-        <div class="row bg-white g-3">
-            <div class="col-md-6 col-sm-12 p-5">
+        <div class="row bg-white">
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 pb-0 p-5 mb-5">
                 <h1 class="mont-light text-xl">Elite Salon Experience</h1>
-                <p>
+                <p class="mb-0 h5">
                     When walking through our door, you will always have a chance to be served with the best quality and at decent prices. Hundreds of beautiful and stylish nail models along with numerous gel colors and many other beauty services are available for you to choose freely!
                     <br><br>
                     Elite Salon & Day Spa understands that Safety and Sanitation are very important to its customers. Our implements, equipment, and electrical instruments are always thoroughly cleaned and subjected to an approved sanitizing and disinfecting process before being reused. Buffers and files are used only once, then discarded. All pedicure procedures are performed with liner protection. Our staffs were trained to follow a proper sanitization protocol that puts our customer's cleanliness as the number one priority.
@@ -161,7 +163,7 @@
                     If you're in need of Nails treatments or wish to know why so many Gilbert residents come to Elite Salon & Day Spa, come to visit us today.
                 </p>
             </div>
-            <div class="col-md-6 col-sm-12 p-3">
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 p-3">
                 <img src="{{ asset('images/home/caption-photo.webp') }}" class="img-fluid">
             </div>
         </div>
@@ -176,7 +178,7 @@
                 @for ($x = 1; $x <= 6; $x++)
                 <div class="col">
                     <a data-fslightbox="gallery" href="{{ asset('images/gallery/manicure/'.$x.'.webp') }}">
-                        <img src="{{ asset('images/gallery/manicure/'.$x.'.webp') }}" class="rounded-thumbnail rounded-circle">
+                        <img src="{{ asset('images/gallery/manicure/'.$x.'.webp') }}" class="thumbnail rounded-circle">
                     </a>
                 </div>
                 @endfor

@@ -26,9 +26,11 @@
                 </div>
             </div>
             <br>
-            <h1 class="text-xl">
-                <x-feathericon-phone/> 
-                <b>480-926-3333</b>
+            <h1 class="text-xl d-flex justify-content-between align-items-center">
+                <b>480-926-3333</b>&nbsp;
+                <a href="tel:4809263333" class="btn btn-primary btn-lg rounded-pill text-secondary">
+                    <x-feathericon-phone/> Call Now
+                </a>
             </h1>
             <br>
             <h3>
@@ -41,20 +43,31 @@
                 Saturdays: 9am-6pm<br>
                 Sundays: 10am-5pm
             </h4>
+            <br>
+            <h3 class="text-center">
+                <b>Walk-in appointments are always welcome.</b>
+            </h3>
         </div>
     </div>
 </div>
 
-<div class="p-5 bg-primary" data-aos="fade-left">
+<div class="p-5 contact-header bg-primary" data-aos="fade-left">
     <div class="container text-center">
-        <h1 class="text-xl text-white">CONTACT US</h1>
-        <h3 class="text-white">This feature is currently under maintenance. You may contact us through our phone number for the time being.</h3>
+        <h1 class="text-xl text-white">EMAIL US</h1>
     </div>
 </div>
 
 <div class="p-5 bg-warning" data-aos="fade-up" data-aos-duration="1000">
     <div class="container">
-        <div class="row">
+        <div class="text-center">
+            <h1>Send your inquiries:</h1>
+            <h3><b>elitesalondayspacontact@gmail.com</b></h3>
+            <br>
+            <a href="mailto:elitesalondayspacontact@gmail.com?subject=Inquiry to Elite Salon Day Spa | Gilbert, AZ." class="btn btn-primary btn-lg rounded-pill text-secondary">
+                <x-feathericon-mail/> Compose an email for us
+            </a>
+        </div>
+        {{-- <div class="row">
             <div class="col d-flex justify-content-center align-items-center">
                 <div class="w-75">
                     <h1 class="text-black font-weight-bold"><b>NAME</b></h1>
@@ -74,7 +87,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </div>
 @endsection

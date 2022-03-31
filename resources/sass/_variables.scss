@@ -1,6 +1,4 @@
-// Body
-$body-bg: #f8fafc;
-
+// Fonts
 @font-face {
     font-family: 'BaskervilleBT';
     src: url('../fonts/BaskervilleBT.ttf');
@@ -15,6 +13,9 @@ $body-bg: #f8fafc;
     font-family: 'Mont-Heavy';
     src: url('../fonts/Mont-HeavyDEMO.otf') format('opentype');
 }
+
+// Body
+$body-bg: #f8fafc;
 
 // Typography
 $font-family-sans-serif: 'BaskervilleBT', sans-serif;

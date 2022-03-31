@@ -13,44 +13,57 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body class="antialiased">
-        <div class="d-none d-lg-flex justify-content-center align-items-center bg-primary pt-2">
-            <img src="{{ asset('images/logo-expand.webp') }}" width="300px" data-aos="fade-up">
+        <div class="d-none d-xl-flex justify-content-center align-items-center bg-primary pt-2">
+            <a href="{{ route('home') }}">
+                <img src="{{ asset('images/logo-expand.webp') }}" width="300px" data-aos="fade-up">
+            </a>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top">
+        <nav class="navbar navbar-expand-xl navbar-light bg-primary sticky-top">
             <div class="container-fluid">
-                <a class="d-block d-md-block d-lg-none navbar-brand" href="{{ route('home') }}">
+                <a class="d-block d-md-block d-xl-none navbar-brand" href="{{ route('home') }}">
                     <img src="{{ asset('images/logo-expand.webp') }}" width="200px" data-aos="fade-up">
                 </a>
-                <a class="d-block d-md-block d-lg-none btn btn-secondary btn-lg" href="">
+                <a class="d-block d-md-block d-xl-none btn btn-secondary btn-lg" href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona">
                     <x-feathericon-calendar/>
                     <b>BOOK NOW</b>
                 </a>
                 <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#header" aria-controls="header" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon bg-secondary"></span>
+                    <x-feathericon-menu/> MENU
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-center" id="header">
                     <ul class="navbar-nav">
                         <li class="nav-item px-2">
-                            <a class="h4 nav-link @if (request()->is('/')) text-white @endif text-secondary" aria-current="page" href="{{ route('home') }}">HOME</a>
+                            <a class="h5 nav-link @if (request()->is('/')) text-white @endif text-secondary" aria-current="page" href="{{ route('home') }}">HOME</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="h4 nav-link text-secondary" aria-current="page" href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank">BOOK ONLINE</a>
+                            <a class="h5 nav-link text-secondary text-nowrap" aria-current="page" href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank">BOOK ONLINE</a>
+                        </li>
+                        <li class="nav-item dropdown px-2">
+                            <a class="h5 nav-link dropdown-toggle @if (request()->is('gallery')) text-white @endif text-secondary" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">GALLERY</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item h5" href="{{ route('gallery') }}">
+                                    <x-feathericon-home/> OUR SALON
+                                </a>
+                                <a class="dropdown-item h5" href="https://www.instagram.com/elitesalonanddayspa/" target="_blank">
+                                    <x-feathericon-instagram/> OUR WORKS
+                                </a>
+                            </div>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="h4 nav-link @if (request()->is('shop')) text-white @endif text-secondary" aria-current="page" href="{{ route('shop') }}">SHOP</a>
+                            <a class="h5 nav-link @if (request()->is('services')) text-white @endif text-secondary" aria-current="page" href="{{ route('services') }}">SERVICES</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="h4 nav-link @if (request()->is('services')) text-white @endif text-secondary" aria-current="page" href="{{ route('services') }}">SERVICES</a>
+                            <a class="h5 nav-link @if (request()->is('promo')) text-white @endif text-secondary text-nowrap" aria-current="page" href="{{ route('promo') }}">CURRENT PROMOTIONS</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="h4 nav-link @if (request()->is('promo')) text-white @endif text-secondary" aria-current="page" href="{{ route('promo') }}">PROMO</a>
+                            <a class="h5 nav-link @if (request()->is('contact')) text-white @endif text-secondary" aria-current="page" href="{{ route('contact') }}">CONTACT</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="h4 nav-link @if (request()->is('contact')) text-white @endif text-secondary" aria-current="page" href="{{ route('contact') }}">CONTACT</a>
+                            <a class="h5 nav-link @if (request()->is('rate')) text-white @endif text-secondary" aria-current="page" href="{{ route('rate') }}">REVIEWS</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="h4 nav-link @if (request()->is('rate')) text-white @endif text-secondary" aria-current="page" href="{{ route('rate') }}">RATE US</a>
+                            <a class="h5 nav-link @if (request()->is('policy')) text-white @endif text-secondary text-nowrap" aria-current="page" href="{{ route('policy') }}">POLICY</a>
                         </li>
                     </ul>
                 </div>
@@ -91,7 +104,9 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 p-5 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
-                        <img src="{{ asset('images/logo.webp') }}" width="200px">
+                        <a href="{{ route('home') }}">
+                            <img src="{{ asset('images/logo.webp') }}" width="200px">
+                        </a>
                     </div>
                 </div>
             </div>

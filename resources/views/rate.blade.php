@@ -42,10 +42,10 @@
                     <img src="{{ asset('images/facebook.webp') }}" width="70px">
                 </a>
                 <a href="https://www.instagram.com/elitesalonanddayspa/" target="_blank">
-                    <img src="{{ asset('images/yelp.webp') }}" width="70px">
+                    <img src="{{ asset('images/instagram.webp') }}" width="70px">
                 </a>
                 <a href="https://www.yelp.com/biz/elite-salon-day-spa-gilbert" target="_blank">
-                    <img src="{{ asset('images/instagram.webp') }}" width="70px">
+                    <img src="{{ asset('images/yelp.webp') }}" width="70px">
                 </a>
                 <a href="https://www.google.com/search?source=hp&ei=RhMMW4_SKc3S8wWM-Ido&q=Elite+Salon+Day+Spa+85234&oq=Elite+Salon+Day+Spa+85234&gs_l=psy-ab.3...4284.14973.0.15841.4.3.0.0.0.0.760.943.2j6-1.3.0....0...1c.1.64.psy-ab..1.0.0.0...0.7X1fE7w_cT0#lrd=0x872baeb670a64445:0x6256af26f84fdc6,1,,," target="_blank">
                     <img src="{{ asset('images/google.webp') }}" width="70px">

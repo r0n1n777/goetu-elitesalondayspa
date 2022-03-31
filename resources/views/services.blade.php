@@ -51,7 +51,7 @@
                         <h1 class="card-title text-xl">Manicure</h1>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Classic Manicure (Reg. colors)</b>
-                            <b>$22</b>
+                            <b>$23</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Deluxe Manicure<br>(Sugar scrub, Paraffin wax, Longer massage)</b>
@@ -62,7 +62,7 @@
                             <b>$33</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Gel Polish change on nails</b>
+                            <b>Gel Polish Color Change</b>
                             <b>$25</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
@@ -154,7 +154,7 @@
                                 - Massage with hot oil, peach paraffin wax, hot stones, and your choice of massage lotion<br>
                                 - Hot towel wrap & Regular polish
                             </span>
-                            <b>$81</b>
+                            <b>$82</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <span>
@@ -188,23 +188,23 @@
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>DIP with Tips</b>
-                            <b>$47+</b>
+                            <b>$49+</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Add on Gel Polish</b>
-                            <b>$10 add</b>
+                            <b>$5 add</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>DIP Overlay Pink & White</b>
-                            <b>$46+</b>
+                            <b>$50+</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>DIP Pink & White w/ Tips</b>
-                            <b>$51+</b>
+                            <b>$55+</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>DIP Pink & White Ombre</b>
-                            <b>$51+</b>
+                            <b>$55+</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Extra for Manicure</b>
@@ -218,7 +218,7 @@
                         <h5>Acrylics<br>Extra charge for special shape or length of nails vary from $10 & up.</h5>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Full Set Regular Polish</b>
-                            <b>$45+</b>
+                            <b>$48+</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Apres Gel-X Full Set</b>
@@ -230,11 +230,11 @@
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Fill Regular Polish</b>
-                            <b>$41+</b>
+                            <b>$40+</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Fill with Gel Polish</b>
-                            <b>$41+</b>
+                            <b>$42+</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>P&W Full Set</b>
@@ -245,8 +245,8 @@
                             <b>$61</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>P&W Fill</b>
-                            <b>$51+</b>
+                            <b>P&W BackFill</b>
+                            <b>$52+</b>
                         </p>
 
                         <h5>Builder (Hard) Gel</h5>
@@ -260,15 +260,19 @@
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Fill-in</b>
-                            <b>$40</b>
+                            <b>$40+</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Fill-in with Gel Polish</b>
-                            <b>$45</b>
+                            <b>$45+</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Pink & White Full Set</b>
-                            <b>$65</b>
+                            <b>$61+</b>
+                        </p>
+                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
+                            <b>Pink & White BackFill</b>
+                            <b>$56+</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Pink & White Fill-in<br>Extra charge for special shape or length of nails vary from $10 and up.</b>
@@ -298,8 +302,12 @@
                             <b>$15</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Lip or Chin</b>
+                            <b>Lip</b>
                             <b>$7</b>
+                        </p>
+                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
+                            <b>Chin</b>
+                            <b>$9</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Face</b>
@@ -343,7 +351,7 @@
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Under Arm</b>
-                            <b>$19+</b>
+                            <b>$25+</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Chest</b>
@@ -387,7 +395,7 @@
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Gel Manicure</b>
-                            <b>$22</b>
+                            <b>$23</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Pedicure</b>
@@ -449,7 +457,7 @@
                         <h1 class="card-title text-xl">Additional Services</h1>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Paraffin Wax Treatment</b>
-                            <b>$15</b>
+                            <b>$16</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Callus Treatment<br>(with Cucumber Heel Cream)</b>
@@ -469,7 +477,7 @@
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Chrome Powder</b>
-                            <b>$15</b>
+                            <b>$10+</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>French Polish Change</b>
