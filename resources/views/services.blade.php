@@ -62,18 +62,8 @@
                             <b>$33</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Gel Polish Color Change</b>
-                            <b>$25</b>
+                            <b>*$6 Extra to soak off previous gel polish, $6 Extra for French.</b>
                         </p>
-                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Classic Gel Manicure</b>
-                            <b>$49</b>
-                        </p>
-                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Gel Polish change on toes<br>*$6 Extra to soak off previous gel polish, $6 Extra for French.</b>
-                            <b>$23</b>
-                        </p>
-                        <p class="card-text"><small class="text-muted">Updated 2022</small></p>
                     </div>
                 </div>
             </div>
@@ -167,7 +157,6 @@
                             </span>
                             <b>$26</b>
                         </p>
-                        <p class="card-text"><small class="text-muted">Updated 2022</small></p>
                     </div>
                 </div>
             </div>
@@ -181,7 +170,7 @@
                 <div class="col-md-7">
                     <div class="card-body">
                         <h1 class="card-title text-xl">Nail Enhancements</h1>
-                        <h5>Healthy Dipping Powder(SNS)<br>Extra charge for special shape or length of nails vary from $5 & up.</h5>
+                        <h5>Healthy Dipping Powder(SNS)</h5>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>DIP Overlay</b>
                             <b>$41+</b>
@@ -189,10 +178,6 @@
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>DIP with Tips</b>
                             <b>$49+</b>
-                        </p>
-                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Add on Gel Polish</b>
-                            <b>$5 add</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>DIP Overlay Pink & White</b>
@@ -215,7 +200,7 @@
                             <b>$6</b>
                         </p>
 
-                        <h5>Acrylics<br>Extra charge for special shape or length of nails vary from $10 & up.</h5>
+                        <h5>Acrylics</h5>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>Full Set Regular Polish</b>
                             <b>$48+</b>

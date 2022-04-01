@@ -45,7 +45,7 @@
             </h4>
             <br>
             <h3 class="text-center">
-                <b>Walk-in appointments are always welcome.</b>
+                <b>Walk-ins welcomed, appointments preferred.</b>
             </h3>
         </div>
     </div>

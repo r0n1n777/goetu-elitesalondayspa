@@ -11,7 +11,6 @@
       <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
       <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
       <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
-      <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -26,26 +25,6 @@
         </div>
         <div class="carousel-item bg-black">
             <img src="{{ asset('images/gallery/store/3.webp') }}" class="opacity-50 d-block w-100">
-            <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
-                <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
-                <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
-                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
-                </a>
-            </div>
-        </div>
-        <div class="carousel-item bg-primary">
-            <img src="{{ asset('images/home/carousel/2.webp') }}" class="opacity-75 d-block w-100">
-            <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
-                <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
-                <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
-                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
-                </a>
-            </div>
-        </div>
-        <div class="carousel-item bg-black">
-            <img src="{{ asset('images/gallery/store/6.webp') }}" class="opacity-50 d-block w-100">
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
@@ -76,6 +55,16 @@
         </div>
         <div class="carousel-item">
             <img src="{{ asset('images/home/carousel/4.webp') }}" class="opacity-75 d-block w-100">
+            <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
+                <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
+                <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
+                </a>
+            </div>
+        </div>
+        <div class="carousel-item bg-black">
+            <img src="{{ asset('images/gallery/store/6.webp') }}" class="opacity-50 d-block w-100">
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>

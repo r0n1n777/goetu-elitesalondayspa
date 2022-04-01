@@ -19,9 +19,4 @@ mix.js('resources/js/app.js', 'public/js')
     })
     .browserSync({
         proxy: 'http://localhost:8000'
-    })
-    .options({
-        watchOptions: {
-            ignored: /node_modules/
-        }
     });

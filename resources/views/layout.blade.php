@@ -63,7 +63,7 @@
                             <a class="h5 nav-link @if (request()->is('rate')) text-white @endif text-secondary" aria-current="page" href="{{ route('rate') }}">REVIEWS</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="h5 nav-link @if (request()->is('policy')) text-white @endif text-secondary text-nowrap" aria-current="page" href="{{ route('policy') }}">POLICY</a>
+                            <a class="h5 nav-link @if (request()->is('policy')) text-white @endif text-secondary text-nowrap" aria-current="page" href="{{ route('policy') }}">POLICIES</a>
                         </li>
                     </ul>
                 </div>
@@ -98,7 +98,7 @@
                     <div class="col-md-4 col-sm-6 p-5 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100">
                         <div class="d-flex flex-column">
                             <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" class="mb-2 text-decoration-none text-secondary" target="_blank">BOOK ONLINE</a>
-                            <a href="" class="mb-2 text-decoration-none text-secondary">SHOP</a>
+                            <a href="{{ route('policy') }}" class="mb-2 text-decoration-none text-secondary">POLICIES</a>
                             <a href="{{ route('promo') }}" class="mb-2 text-decoration-none text-secondary">PROMOTIONS</a>
                             <a href="{{ route('contact') }}" class="mb-2 text-decoration-none text-secondary">OUR LOCATION</a>
                         </div>
