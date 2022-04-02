@@ -11,6 +11,7 @@
       <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
       <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
       <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#home-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -65,6 +66,16 @@
         </div>
         <div class="carousel-item bg-black">
             <img src="{{ asset('images/gallery/store/6.webp') }}" class="opacity-50 d-block w-100">
+            <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
+                <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
+                <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
+                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
+                </a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="{{ asset('images/home/carousel/6.webp') }}" class="opacity-75 d-block w-100">
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
@@ -141,7 +152,7 @@
 
 <div class="p-5 bg-warning" data-aos="fade-left" data-aos-duration="1000" id="about-us">
     <div class="container">
-        <div class="row bg-white">
+        <div class="row bg-white shadow">
             <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 pb-0 p-5 mb-5">
                 <h1 class="mont-light text-xl">Elite Salon Experience</h1>
                 <p class="mb-0 h5">
@@ -152,8 +163,8 @@
                     If you're in need of Nails treatments or wish to know why so many Gilbert residents come to Elite Salon & Day Spa, come to visit us today.
                 </p>
             </div>
-            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 p-3">
-                <img src="{{ asset('images/home/caption-photo.webp') }}" class="img-fluid">
+            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 p-0">
+                <img src="{{ asset('images/home/caption-photo.webp') }}" class="w-100 h-100 caption-photo">
             </div>
         </div>
     </div>

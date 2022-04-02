@@ -18,7 +18,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .sticky-offset {
-    top: 100px;
+    top: 50px;
     z-index: 1000;
 }
 
@@ -71,6 +71,12 @@ body::-webkit-scrollbar-thumb {
 .thumbnail {
     width: 200px;
     height: 200px;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+// Home
+.caption-photo {
     object-fit: cover;
     -o-object-fit: cover;
 }

@@ -11,7 +11,7 @@
     </div>
 </div>
 
-<div class="p-5 bg-primary">
+<div class="p-5 bg-primary sticky-top sticky-offset">
     <div class="container">
         <div class="row">
             <div class="col text-center" data-aos="fade-up">
@@ -21,7 +21,7 @@
                 <a href="#pedicure" class="text-decoration-none text-white h5">Pedicure</a>
             </div>
             <div class="col text-center" data-aos="fade-up" data-aos-delay="200">
-                <a href="#nail-enhancement" class="text-decoration-none text-white h5 text-nowrap">Nail Enhancement</a>
+                <a href="#nail-enhancement" class="text-decoration-none text-white h5 text-nowrap">Nail Enhancements</a>
             </div>
             <div class="col text-center" data-aos="fade-up" data-aos-delay="300">
                 <a href="#body-care" class="text-decoration-none text-white h5 text-nowrap">Body Care</a>
@@ -29,11 +29,11 @@
             <div class="col text-center" data-aos="fade-up" data-aos-delay="400">
                 <a href="#children-services" class="text-decoration-none text-white h5 text-nowrap">Children Services</a>
             </div>
-            <div class="col text-center" data-aos="fade-up" data-aos-delay="500">
-                <a href="#additiona-services" class="text-decoration-none text-white h5 text-nowrap">Additional Services</a>
-            </div>
             <div class="col text-center" data-aos="fade-up" data-aos-delay="600">
                 <a href="#eyelash-extensions" class="text-decoration-none text-white h5 text-nowrap">Eyelash Extensions</a>
+            </div>
+            <div class="col text-center" data-aos="fade-up" data-aos-delay="500">
+                <a href="#additional-services" class="text-decoration-none text-white h5 text-nowrap">Additional Services</a>
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@
 
 <div class="p-5 services bg-warning">
     <div class="container">
-        <div class="card mb-3" data-aos="fade-left" data-aos-duration="1000">
+        <div id="manicure" class="card mb-3" data-aos="fade-left" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
                     <img src="{{ asset('images/services/manicure.webp') }}" class="img-fluid rounded-start h-100">
@@ -69,7 +69,7 @@
             </div>
         </div>
 
-        <div class="card mb-3" data-aos="fade-right" data-aos-duration="1000">
+        <div id="pedicure" class="card mb-3" data-aos="fade-right" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
                     <img src="{{ asset('images/services/pedicure.webp') }}" class="img-fluid rounded-start h-100">
@@ -162,7 +162,7 @@
             </div>
         </div>
 
-        <div class="card mb-3" data-aos="fade-left" data-aos-duration="1000">
+        <div id="nail-enhancement" class="card mb-3" data-aos="fade-left" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
                     <img src="{{ asset('images/services/nail-enhancements.webp') }}" class="img-fluid rounded-start h-100">
@@ -273,7 +273,7 @@
             </div>
         </div>
 
-        <div class="card mb-3" data-aos="fade-right" data-aos-duration="1000">
+        <div id="body-care" class="card mb-3" data-aos="fade-right" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
                     <img src="{{ asset('images/services/body-care.webp') }}" class="img-fluid rounded-start h-100">
@@ -361,7 +361,7 @@
             </div>
         </div>
 
-        <div class="card mb-3" data-aos="fade-left" data-aos-duration="1000">
+        <div id="children-services" class="card mb-3" data-aos="fade-left" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
                     <img src="{{ asset('images/services/children.webp') }}" class="img-fluid rounded-start h-100">
@@ -405,7 +405,7 @@
             </div>
         </div>
 
-        <div class="card mb-3" data-aos="fade-right" data-aos-duration="1000">
+        <div id="eyelash-extensions" class="card mb-3" data-aos="fade-right" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
                     <img src="{{ asset('images/services/eyelash-extensions.webp') }}" class="img-fluid rounded-start h-100">
@@ -432,7 +432,7 @@
             </div>
         </div>
 
-        <div class="card mb-3" data-aos="fade-left" data-aos-duration="1000">
+        <div id="additional-services" class="card mb-3" data-aos="fade-left" data-aos-duration="1000">
             <div class="row g-0">
                 <div class="col-md-5">
                     <img src="{{ asset('images/services/additional-services.webp') }}" class="img-fluid rounded-start h-100">
