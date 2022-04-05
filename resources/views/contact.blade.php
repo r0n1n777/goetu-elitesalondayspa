@@ -27,7 +27,7 @@
             </div>
             <br>
             <h1 class="text-xl d-flex justify-content-between align-items-center">
-                <a href="tel:4809263333" class="text-xl text-decoration-none">
+                <a href="tel:480-926-3333" class="text-xl text-decoration-none">
                     <b>480-926-3333</b>
                 </a>
             </h1>
