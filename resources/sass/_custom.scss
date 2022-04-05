@@ -17,6 +17,10 @@ body::-webkit-scrollbar-thumb {
     border-radius: 200px;
 }
 
+.content {
+    overflow: hidden;
+}
+
 .sticky-offset {
     top: 50px;
     z-index: 1000;

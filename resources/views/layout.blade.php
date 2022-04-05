@@ -43,10 +43,10 @@
                             <a class="h5 nav-link dropdown-toggle @if (request()->is('gallery')) text-white @endif text-secondary" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">GALLERY</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item h5" href="{{ route('gallery') }}">
-                                    <x-feathericon-home/> OUR SALON
+                                    OUR SALON
                                 </a>
                                 <a class="dropdown-item h5" href="https://www.instagram.com/elitesalonanddayspa/" target="_blank">
-                                    <x-feathericon-instagram/> OUR WORKS
+                                    PORTFOLIO
                                 </a>
                             </div>
                         </li>
@@ -69,7 +69,10 @@
                 </div>
             </div>
         </nav>
-        @yield('content')
+
+        <div class="content">
+            @yield('content')
+        </div>
 
         <footer>
             <div class="container-fluid">

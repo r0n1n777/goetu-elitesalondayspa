@@ -27,15 +27,16 @@
             </div>
             <br>
             <h1 class="text-xl d-flex justify-content-between align-items-center">
-                <b>480-926-3333</b>&nbsp;
-                <a href="tel:4809263333" class="btn btn-primary btn-lg rounded-pill text-secondary">
-                    <x-feathericon-phone/> Call Now
+                <a href="tel:4809263333" class="text-xl text-decoration-none">
+                    <b>480-926-3333</b>
                 </a>
             </h1>
             <br>
             <h3>
-                <x-feathericon-map-pin/>
-                53 N Val Vista Dr #103 Gilbert AZ
+                <a href="https://www.google.com/maps/dir//53+N+Val+Vista+Dr,+Gilbert,+AZ+85234,+USA/@33.3513526,-111.7637464,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x872baeb67a7eb103:0x81f2020338d8e930!2m2!1d-111.7549916!2d33.351335" target="_blank" class="text-decoration-none">
+                    <x-feathericon-map-pin/>
+                    53 N Val Vista Dr #103 Gilbert AZ
+                </a>
             </h3>
             <br>
             <h4 class="text-center">
