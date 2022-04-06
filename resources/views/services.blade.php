@@ -170,102 +170,87 @@
                 <div class="col-md-7">
                     <div class="card-body">
                         <h1 class="card-title text-xl">Nail Enhancements</h1>
-                        <h5>Healthy Dipping Powder(SNS)</h5>
+                        <h5 class="text-muted">Healthy Dipping Powder (*)</h5>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>DIP Overlay</b>
-                            <b>$41+</b>
+                            <b>$41</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>DIP with Tips</b>
-                            <b>$49+</b>
+                            <b>$49</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>DIP Overlay Pink & White</b>
-                            <b>$50+</b>
+                            <b>DIP Pink & White Overlay</b>
+                            <b>$50</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>DIP Pink & White w/ Tips</b>
-                            <b>$55+</b>
+                            <b>$55</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
                             <b>DIP Pink & White Ombre</b>
-                            <b>$55+</b>
-                        </p>
-                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Extra for Manicure</b>
-                            <b>$10</b>
-                        </p>
-                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Extra for soak off previous DIP</b>
-                            <b>$6</b>
-                        </p>
+                            <b>$55</b>
+                        </p><br>
 
-                        <h5>Acrylics</h5>
+                        <h5 class="text-muted">Gel Extension (*)</h5>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Full Set Regular Polish</b>
-                            <b>$48+</b>
-                        </p>
-                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Apres Gel-X Full Set</b>
-                            <b>$46+</b>
-                        </p>
-                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Full Set with Gel Polish</b>
-                            <b>$50+</b>
-                        </p>
-                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Fill Regular Polish</b>
-                            <b>$40+</b>
-                        </p>
-                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Fill with Gel Polish</b>
-                            <b>$42+</b>
-                        </p>
-                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>P&W Full Set</b>
-                            <b>$56+</b>
-                        </p>
-                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>P&W Ombre Full Set</b>
-                            <b>$61</b>
-                        </p>
-                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>P&W BackFill</b>
-                            <b>$52+</b>
-                        </p>
+                            <b>Gel-X Extension / with gel polish</b>
+                            <b>$46 / $48</b>
+                        </p><br>
 
-                        <h5>Builder (Hard) Gel</h5>
+                        <h5 class="text-muted">Hybrid Gel and Builder (Hard) Gel (*)</h5>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Full Set</b>
-                            <b>$51</b>
-                        </p>
-                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Full Set with Gel Polish</b>
+                            <b>Full Set Hybrid Gel</b>
                             <b>$56</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Fill-in</b>
-                            <b>$40+</b>
+                            <b>Fill Hybrid Gel</b>
+                            <b>$45</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Fill-in with Gel Polish</b>
-                            <b>$45+</b>
+                            <b>Full Set Builder Gel / with gel polish</b>
+                            <b>$51 / $56</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Pink & White Full Set</b>
-                            <b>$61+</b>
+                            <b>Fill Builder Gel / with gel polish</b>
+                            <b>$40 / $45</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Pink & White BackFill</b>
-                            <b>$56+</b>
+                            <b>Full Set Builder Gel Pink & White</b>
+                            <b>$61</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Pink & White Fill-in<br>Extra charge for special shape or length of nails vary from $10 and up.</b>
-                            <b>$60</b>
+                            <b>Backfill Builder Gel Pink & White</b>
+                            <b>$56</b>
+                        </p><br>
+
+                        <h5 class="text-muted">Acrylics (*)</h5>
+                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
+                            <b>Full Set / with Gel Polish</b>
+                            <b>$48 / $50</b>
                         </p>
                         <p class="card-text d-flex justify-content-between align-items-end border-bottom">
-                            <b>Pink Only Fill-in</b>
-                            <b>$38</b>
+                            <b>Full / with Gel Polish</b>
+                            <b>$40 / $42</b>
+                        </p>
+                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
+                            <b>Full Set Pink & White</b>
+                            <b>$56</b>
+                        </p>
+                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
+                            <b>Full Set Pink & White Ombre</b>
+                            <b>$61</b>
+                        </p>
+                        <p class="card-text d-flex justify-content-between align-items-end border-bottom">
+                            <b>Backfill Pink & White</b>
+                            <b>$52</b>
+                        </p><br>
+
+                        <p class="h-5 text-muted">Extra charges may apply:</p>
+                        <p>
+                            (*) Extra charge $10 for manicure<br>
+                            (*) Extra charge $6 for soak off/take off previous gel/powder<br>
+                            (*) Extra charge $5+ for special shape/length of nails
                         </p>
                         <p class="card-text"><small class="text-muted">Updated 2022</small></p>
                     </div>
