@@ -79,6 +79,12 @@ body::-webkit-scrollbar-thumb {
     -o-object-fit: cover;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
 // Home
 .caption-photo {
     object-fit: cover;

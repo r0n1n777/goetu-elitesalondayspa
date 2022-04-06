@@ -36,22 +36,42 @@
                         <li class="nav-item px-2">
                             <a class="h5 nav-link @if (request()->is('/')) text-white @endif text-secondary" aria-current="page" href="{{ route('home') }}">HOME</a>
                         </li>
-                        <li class="nav-item px-2">
-                            <a class="h5 nav-link text-secondary text-nowrap" aria-current="page" href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank">BOOK ONLINE</a>
-                        </li>
                         <li class="nav-item dropdown px-2">
                             <a class="h5 nav-link dropdown-toggle @if (request()->is('gallery')) text-white @endif text-secondary" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">GALLERY</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item h5" href="{{ route('gallery') }}">
+                                <a class="dropdown-item h5" href="{{ route('our-salon') }}">
                                     OUR SALON
                                 </a>
-                                <a class="dropdown-item h5" href="https://www.instagram.com/elitesalonanddayspa/" target="_blank">
+                                <a class="dropdown-item h5" href="{{ route('portfolio') }}">
                                     PORTFOLIO
                                 </a>
                             </div>
                         </li>
-                        <li class="nav-item px-2">
-                            <a class="h5 nav-link @if (request()->is('services')) text-white @endif text-secondary" aria-current="page" href="{{ route('services') }}">SERVICES</a>
+                        <li class="nav-item dropdown px-2">
+                            <a class="h5 nav-link dropdown-toggle @if (request()->is('services')) text-white @endif text-secondary" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item h5" href="{{ route('services') }}#manicure">
+                                    MANICURE
+                                </a>
+                                <a class="dropdown-item h5" href="{{ route('services') }}#pedicure">
+                                    PEDICURE
+                                </a>
+                                <a class="dropdown-item h5" href="{{ route('services') }}#nail-enhancement">
+                                    NAIL ENHANCEMENTS
+                                </a>
+                                <a class="dropdown-item h5" href="{{ route('services') }}#body-care">
+                                    BODY CARE
+                                </a>
+                                <a class="dropdown-item h5" href="{{ route('services') }}#children-services">
+                                    CHILDREN SERVICES
+                                </a>
+                                <a class="dropdown-item h5" href="{{ route('services') }}#eyelash-extensions">
+                                    EYELASH EXTENSIONS
+                                </a>
+                                <a class="dropdown-item h5" href="{{ route('services') }}#additional-services">
+                                    ADDITIONAL SERVICES
+                                </a>
+                            </div>
                         </li>
                         <li class="nav-item px-2">
                             <a class="h5 nav-link @if (request()->is('promo')) text-white @endif text-secondary text-nowrap" aria-current="page" href="{{ route('promo') }}">CURRENT PROMOTIONS</a>
@@ -64,6 +84,11 @@
                         </li>
                         <li class="nav-item px-2">
                             <a class="h5 nav-link @if (request()->is('policy')) text-white @endif text-secondary text-nowrap" aria-current="page" href="{{ route('policy') }}">POLICIES</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary rounded-pill text-secondary d-flex align-items-center border-secondary shadow h5 text-nowrap">
+                                <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -114,6 +139,10 @@
                 </div>
             </div>
         </footer>
+
+        <a class="back-to-top p-2 bg-primary text-white border border-secondary rounded d-none text-decoration-none" href="#">
+            <x-feathericon-chevron-up/> Back to top
+        </a>
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>

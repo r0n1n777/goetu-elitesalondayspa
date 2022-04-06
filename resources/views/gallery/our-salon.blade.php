@@ -12,8 +12,6 @@
     </div>
 </div>
 
-{{-- <iframe width="320" height="440" src="https://www.instagram.com/elitesalonanddayspa/embed" frameborder="0"></iframe> --}}
-
 <div class="p-5 bg-warning" data-aos="fade-up" data-aos-duration="1000">
     <div class="container">
         <div class="text-center">            
