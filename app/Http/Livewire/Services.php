@@ -14,7 +14,7 @@ class Services extends Component
 
     public function rules()
     {
-        return [ 'name' => 'required|unique:services' ];
+        return [ 'name' => 'required|unique:services,name,'.$this->service_id.',id' ];
     }
 
     public function render()

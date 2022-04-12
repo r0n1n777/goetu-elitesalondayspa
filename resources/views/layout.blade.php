@@ -185,7 +185,7 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>AOS.init();</script>
 
-        @if (request()->is('promo'))
+        @if (request()->is('/') || request()->is('promo'))
         <script>
             $(function(){
                 $('#gift-card').modal('show');
