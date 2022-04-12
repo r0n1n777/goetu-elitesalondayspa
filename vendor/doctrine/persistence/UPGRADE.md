@@ -6,14 +6,36 @@ awareness about deprecated code.
 - Use of our low-overhead runtime deprecation API, details:
   https://github.com/doctrine/deprecations/
 
+# Upgrade to 2.5
+
+## Deprecated `OnClearEventArgs::clearsAllEntities()` and `OnClearEventArgs::getEntityClass()`
+
+These methods only make sense when partially clearing the object manager, which
+is deprecated.
+Passing a second argument to the constructor of `OnClearEventArgs` is
+deprecated as well.
+
+## Deprecated `ObjectManagerAware`
+
+Along with deprecating `PersistentObject`, deprecating `ObjectManagerAware`
+means deprecating support for active record, which already came with a word of
+warning. Please implement this directly in your application with a `postLoad`
+event if you need active record style functionality.
+
+## Deprecated `MappingException::pathRequired()`
+
+`MappingException::pathRequiredForDriver()` should be used instead.
+
 # Upgrade to 2.4
 
 ## Deprecated `AnnotationDriver`
 
-Since attributes were introduced in PHP 8.0, annotations are deprecated. Use
-`ColocatedMappingDriver` instead. This will involve implementing
-`isTransient()` as well as `__construct()` and `getReader()` to
-retain backward compatibility.
+Since attributes were introduced in PHP 8.0, annotations are deprecated.
+`AnnotationDriver` is an abstract class that is used when implementing concrete
+annotation drivers in dependent packages. It is deprecated in favor of using
+`ColocatedMappingDriver` to implement both annotation and attribute based
+drivers. This will involve implementing `isTransient()` as well as
+`__construct()` and `getReader()` to retain backward compatibility.
 
 # Upgrade to 2.3
 
