@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Livewire\Services;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,14 @@ Route::view('/promo', 'promo')->name('promo');
 Route::view('/contact', 'contact')->name('contact');
 Route::view('/rate', 'rate')->name('rate');
 Route::view('/policy', 'policy')->name('policy');
+
+// Auth and Admin
+Auth::routes([
+    'register' => false,
+    'reset' => false,
+    'verify' => false,
+]);
+
+Route::group(['middleware' => 'auth'], function(){
+    Route::get('/admin/dashboard', Services::class)->name('admin-dashboard');
+});

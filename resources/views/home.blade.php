@@ -150,8 +150,17 @@
     </div>
 </div>
 
-<div class="p-5 bg-warning" data-aos="fade-left" data-aos-duration="1000" id="about-us">
-    <div class="container">
+<div class="p-5 bg-warning">
+    <div class="container px-0 bg-secondary rounded shadow" data-aos="fade-right" data-aos-duration="1000">
+        <div class="p-2 bg-white">
+            <h1 class="text-center mb-0">Awards & Achievements</h1>
+        </div>
+        <img src="{{ asset('images/award.webp') }}" class="img-fluid">
+    </div>
+</div>
+
+<div class="p-5 bg-warning">
+    <div class="container" data-aos="fade-left" data-aos-duration="1000" id="about-us">
         <div class="row bg-white shadow">
             <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 pb-0 p-5 mb-5">
                 <h1 class="mont-light text-xl">Elite Salon Experience</h1>
@@ -170,8 +179,8 @@
     </div>
 </div>
 
-<div class="p-5 bg-warning" data-aos="fade-up" data-aos-duration="1000">
-    <div class="container">
+<div class="p-5 bg-warning">
+    <div class="container" data-aos="fade-up" data-aos-duration="1000">
         <div class="text-center">
             <h1 class="mont-light text-xl">Elite Salon Day Spa</h1>
             <div class="row g-3">

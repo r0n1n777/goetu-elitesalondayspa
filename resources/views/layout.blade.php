@@ -11,8 +11,9 @@
         <title>@yield('title')</title>
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        @livewireStyles
     </head>
-    <body class="antialiased">
+    <body class="antialiased bg-primary">
         <div class="d-none d-xl-flex justify-content-center align-items-center bg-primary pt-2">
             <a href="{{ route('home') }}">
                 <img src="{{ asset('images/logo-expand.webp') }}" width="300px" data-aos="fade-up">
@@ -37,7 +38,7 @@
                             <a class="h5 nav-link @if (request()->is('/')) text-white @endif text-secondary" aria-current="page" href="{{ route('home') }}">HOME</a>
                         </li>
                         <li class="nav-item dropdown px-2">
-                            <a class="h5 nav-link dropdown-toggle @if (request()->is('gallery')) text-white @endif text-secondary" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">GALLERY</a>
+                            <a class="h5 nav-link dropdown-toggle @if (request()->is('gallery/our-salon') || request()->is('gallery/portfolio')) text-white @endif text-secondary" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">GALLERY</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item h5" href="{{ route('our-salon') }}">
                                     OUR SALON
@@ -139,23 +140,59 @@
                 </div>
             </div>
         </footer>
+        
+        <div class="modal fade" id="gift-card" tabindex="-1" role="dialog" aria-labelledby="gift-card" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-primary rounded-0">
+                        <h5 class="modal-title text-white">Gift cards are available!</h5>
+                        <button type="button" class="btn text-white close" data-bs-dismiss="modal" aria-label="Close">
+                            <x-feathericon-x/>
+                        </button>
+                    </div>
+                    <div class="modal-body d-flex flex-column align-items-center bg-warning">
+                        <h5 class="text-center"><b>Please visit our salon to purchase your gift cards!</b></h5>
+                        <img src="{{ asset('images/gift-card.webp') }}" class="w-75 shadow-lg">
+                    </div>
+                    <div class="modal-footer bg-primary rounded-0"></div>
+                </div>
+            </div>
+        </div>
 
         <a class="back-to-top p-2 bg-primary text-white border border-secondary rounded d-none text-decoration-none" href="#">
             <x-feathericon-chevron-up/> Back to top
         </a>
+
+        @if (Auth::check())
+        <div class="bg-danger text-white p-2 d-flex justify-content-between align-items-center w-100 fixed-bottom">
+            <span>You are logged in as Administrator.</span>
+            <a class="btn btn-primary" href="{{ route('admin-dashboard') }}">
+                <x-feathericon-menu/> Dashboard
+            </a>
+            <form method="post" action="{{ route('logout') }}">
+                @csrf
+                <button class="btn btn-primary">
+                    <x-feathericon-log-out/> Logout
+                </button>
+            </form>
+        </div>
+        @endif
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            var parallax = document.getElementsByClassName('parallax');
-            new simpleParallax(parallax, {
-                scale: 1.5
-            });
+        <script>AOS.init();</script>
 
-            AOS.init();
+        @if (request()->is('promo'))
+        <script>
+            $(function(){
+                $('#gift-card').modal('show');
+            });
         </script>
+        @endif
+
+        @livewireScripts
     </body>
 </html>

@@ -12,7 +12,7 @@
     </div>
 </div>
 
-<div class="pt-5 p-3">
+<div class="pt-5 p-3 bg-warning">
     <div class="embedsocial-hashtag" data-ref="e7439a1372139a8260cf292d31323fbb7f404eb9"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialHashtagScript"));</script>
 </div>
 @endsection

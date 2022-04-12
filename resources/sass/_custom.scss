@@ -81,8 +81,13 @@ body::-webkit-scrollbar-thumb {
 
 .back-to-top {
     position: fixed;
-    bottom: 20px;
+    bottom: 60px;
     right: 20px;
+    opacity: 0.5;
+}
+
+.back-to-top:hover {
+    opacity: 1;
 }
 
 // Home
