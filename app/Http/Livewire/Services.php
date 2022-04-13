@@ -19,8 +19,6 @@ class Services extends Component
 
     public function render()
     {
-        $this->name = ucwords($this->name);
-
         $this->services = Service::all();
 
         return view('admin/services')
@@ -29,7 +27,7 @@ class Services extends Component
             ->with('services', $this->services);
     }
 
-    public function close()
+    public function cancel()
     {
         $this->reset();
         $this->resetValidation();
@@ -43,10 +41,10 @@ class Services extends Component
             'id' => $this->service_id
         ],
         [
-            'name' => $this->name
+            'name' => ucwords($this->name)
         ]);
 
-        session()->flash('success', 'Service has been saved.<br><h1>'.$this->name.'</h1>');
+        session()->flash('success', 'Record saved.');
         $this->reset();
         $this->resetValidation();
     }
@@ -56,5 +54,13 @@ class Services extends Component
         $service = Service::find($id);
         $this->service_id = $service->id;
         $this->name = $service->name;
+    }
+
+    public function delete()
+    {
+        Service::find($this->service_id)->delete();
+        session()->flash('success', 'Record deleted.');
+        $this->reset();
+        $this->resetValidation();
     }
 }
