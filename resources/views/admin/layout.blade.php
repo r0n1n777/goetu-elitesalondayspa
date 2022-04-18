@@ -20,10 +20,10 @@
                 <div class="navbar-expand">
                     <ul class="navbar-nav">
                         <li class="nav-item px-2">
-                            <a class="h5 nav-link text-white" href="">Services</a>
+                            <a class="h5 nav-link text-white" href="{{ route('admin-dashboard') }}">Services</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="h5 nav-link text-white" href="">Photos</a>
+                            <a class="h5 nav-link text-white" href="{{ route('admin-gallery') }}">Gallery</a>
                         </li>
                         <li class="nav-item px-2">
                             <a class="h5 nav-link text-white" href="">Promotions</a>
@@ -45,16 +45,15 @@
         </nav>
 
         <div class="content">
-            @yield('content')
+            {{ $slot }}
         </div>
 
         <a class="back-to-top p-2 bg-primary text-white border border-secondary rounded d-none text-decoration-none" href="#">
             <x-feathericon-chevron-up/> Back to top
         </a>
-
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        
         <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
-
+        <script src="https://cdn.tiny.cloud/1/y1862i4ly9lywtcjhdsn2z04qasso9agsjaqjm2dxmoje6bv/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
         @livewireScripts
     </body>
 </html>

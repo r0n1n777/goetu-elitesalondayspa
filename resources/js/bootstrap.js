@@ -1,4 +1,5 @@
-window._ = require('lodash');
+import $ from 'jquery';
+window.$ = window.jQuery = $;
 
 try {
     require('bootstrap');

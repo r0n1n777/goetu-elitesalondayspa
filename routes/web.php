@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Services;
+use App\Http\Livewire\Menus;
+use App\Http\Livewire\Galleries;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,4 +35,6 @@ Auth::routes([
 
 Route::group(['middleware' => 'auth'], function(){
     Route::get('/admin/dashboard', Services::class)->name('admin-dashboard');
+    Route::get('/admin/menus/{id}', Menus::class)->name('admin-menus');
+    Route::get('/admin/gallery', Galleries::class)->name('admin-gallery');
 });
