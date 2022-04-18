@@ -1,0 +1,27 @@
+// Fonts
+@font-face {
+    font-family: 'BaskervilleBT';
+    src: url('../fonts/BaskervilleBT.ttf');
+}
+
+@font-face {
+    font-family: 'Mont-Light';
+    src: url('../fonts/Mont-ExtraLightDEMO.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Mont-Heavy';
+    src: url('../fonts/Mont-HeavyDEMO.otf') format('opentype');
+}
+
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'BaskervilleBT', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+$primary: #30261d;
+$secondary: #ffe49f;
+$warning: #f7efd8;
