@@ -103,7 +103,7 @@ class Menus extends Component
         $this->description = $menu->description;
         $this->setDescription();
 
-        $this->amount = number_format($menu->prices()->first()->amount, 2, '.');
+        $this->amount = number_format($menu->prices()->first()->amount, 2);
         $this->amount_plus = $menu->prices()->first()->amount_plus;
     }
 
