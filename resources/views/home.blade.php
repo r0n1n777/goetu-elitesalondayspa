@@ -100,7 +100,7 @@
     <div class="container">
         <div class="row g-5">
             <div class="col-md-4 col-sm-6 col-xs-6" data-tilt>
-                <a href="{{ route('promo') }}">
+                <a data-bs-toggle="modal" data-bs-target="#gift-card" href="#gift-card">
                     <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000">
                         <img src="{{ asset('images/home/section-menu/giftcard.webp') }}" class="img-fluid">
                         <h3 class="text-secondary">GIFT CARDS</h3>

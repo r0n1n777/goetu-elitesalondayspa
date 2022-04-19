@@ -18,6 +18,9 @@
             <a href="{{ route('home') }}">
                 <img src="{{ asset('images/logo-expand.webp') }}" width="300px" data-aos="fade-up">
             </a>
+            <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary rounded-pill text-secondary d-flex align-items-center border-secondary shadow h5 text-nowrap d-none d-md-flex">
+                <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
+            </a>
         </div>
         <nav class="navbar navbar-expand-xl navbar-light bg-primary sticky-top">
             <div class="container-fluid">
@@ -59,6 +62,9 @@
                             </div>
                         </li>
                         <li class="nav-item px-2">
+                            <a class="h5 nav-link text-secondary" data-bs-toggle="modal" data-bs-target="#gift-card" href="#gift-card">GIFT CARDS</a>
+                        </li>
+                        <li class="nav-item px-2">
                             <a class="h5 nav-link @if (request()->is('promo')) text-white @endif text-secondary text-nowrap" aria-current="page" href="{{ route('promo') }}">CURRENT PROMOTIONS</a>
                         </li>
                         <li class="nav-item px-2">
@@ -69,11 +75,6 @@
                         </li>
                         <li class="nav-item px-2">
                             <a class="h5 nav-link @if (request()->is('policy')) text-white @endif text-secondary text-nowrap" aria-current="page" href="{{ route('policy') }}">POLICIES</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary rounded-pill text-secondary d-flex align-items-center border-secondary shadow h5 text-nowrap">
-                                <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
-                            </a>
                         </li>
                     </ul>
                 </div>
@@ -136,7 +137,7 @@
                     </div>
                     <div class="modal-body d-flex flex-column align-items-center bg-warning">
                         <h5 class="text-center"><b>Please visit our salon to purchase your gift cards!</b></h5>
-                        <img src="{{ asset('images/gift-card.webp') }}" class="w-75 shadow-lg">
+                        {{-- <img src="{{ asset('images/gift-card.webp') }}" class="w-75 shadow-lg"> --}}
                     </div>
                     <div class="modal-footer bg-primary rounded-0"></div>
                 </div>
