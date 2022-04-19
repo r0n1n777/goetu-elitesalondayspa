@@ -51,27 +51,11 @@
                         <li class="nav-item dropdown px-2">
                             <a class="h5 nav-link dropdown-toggle @if (request()->is('services')) text-white @endif text-secondary" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">SERVICES</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item h5" href="{{ route('services') }}#manicure">
-                                    MANICURE
+                                @foreach ($services as $service)
+                                <a class="dropdown-item h5" href="{{ route('services') }}#{{ $service->id }}">
+                                    {{ $service->name }}
                                 </a>
-                                <a class="dropdown-item h5" href="{{ route('services') }}#pedicure">
-                                    PEDICURE
-                                </a>
-                                <a class="dropdown-item h5" href="{{ route('services') }}#nail-enhancement">
-                                    NAIL ENHANCEMENTS
-                                </a>
-                                <a class="dropdown-item h5" href="{{ route('services') }}#body-care">
-                                    BODY CARE
-                                </a>
-                                <a class="dropdown-item h5" href="{{ route('services') }}#children-services">
-                                    CHILDREN SERVICES
-                                </a>
-                                <a class="dropdown-item h5" href="{{ route('services') }}#eyelash-extensions">
-                                    EYELASH EXTENSIONS
-                                </a>
-                                <a class="dropdown-item h5" href="{{ route('services') }}#additional-services">
-                                    ADDITIONAL SERVICES
-                                </a>
+                                @endforeach
                             </div>
                         </li>
                         <li class="nav-item px-2">
@@ -184,13 +168,14 @@
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>AOS.init();</script>
 
-        @if (request()->is('/') || request()->is('promo'))
+        {{-- Merchant requested to remove popups --}}
+        {{-- @if (request()->is('/') || request()->is('promo'))
         <script>
             $(function(){
                 $('#gift-card').modal('show');
             });
         </script>
-        @endif
+        @endif --}}
 
         @livewireScripts
     </body>

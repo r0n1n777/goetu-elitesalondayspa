@@ -26,7 +26,7 @@
     <div class="p-3">
         <div class="container">
             <div class="d-flex justify-content-between align-items-center">
-                <h3>No Category</h3>
+                <h3>Hidden</h3>
                 <button class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#form" wire:click="fresh(0)">
                     <x-feathericon-plus/> Add Menu
                 </button>
@@ -162,7 +162,7 @@
                     <div class="mb-2">
                         <label class="form-label">Select Category:</label>
                         <select class="form-select border-primary" name="category_id" wire:model.defer="category_id">
-                            <option value="0">No Category</option>
+                            <option value="0">Hidden</option>
                             @foreach ($service->categories as $category)
                             <option value="{{ $category->id }}">{{ $category->name }}</option>
                             @endforeach

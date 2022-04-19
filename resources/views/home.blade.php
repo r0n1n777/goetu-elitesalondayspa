@@ -155,7 +155,9 @@
         <div class="p-2 bg-white">
             <h1 class="text-center mb-0">Awards & Achievements</h1>
         </div>
-        <img src="{{ asset('images/award.webp') }}" class="img-fluid">
+        <div class="d-flex justify-content-center align-items-center">
+            <img src="{{ asset('images/award.webp') }}" class="img-fluid">
+        </div>
     </div>
 </div>
 

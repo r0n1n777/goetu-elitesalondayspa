@@ -21,6 +21,7 @@ class Services extends Component
     public $photo;
     public $note;
     public $new_photo;
+    public $new_photo_preview;
 
     public $name_category;
 
@@ -28,8 +29,8 @@ class Services extends Component
     {
         return [ 
             'name' => 'required|unique:services,name,'.$this->service_id.',id',
+            'note' => 'nullable',
             'new_photo' => 'image|max:1024',
-            'note' => 'nullable'
         ];
     }
 
@@ -57,7 +58,7 @@ class Services extends Component
         {
             $new_rule = [
                 'name' => 'required|unique:services,name,'.$this->service_id.',id',
-                'note' => 'nullable'
+                'note' => 'nullable',
             ];
 
             $this->validate($new_rule); // Validate without the new_photo
@@ -116,7 +117,7 @@ class Services extends Component
 
     public function updatedNewphoto()
     {
-        $this->photo = $this->new_photo->temporaryUrl();
+        $this->new_photo_preview = $this->new_photo->temporaryUrl();
     }
 
     // Categories

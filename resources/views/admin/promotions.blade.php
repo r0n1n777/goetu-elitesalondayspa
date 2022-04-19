@@ -2,64 +2,57 @@
     <div class="p-3 bg-primary">
         <div class="container d-flex flex-column justify-content-center align-items-center">
             <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#form" wire:click="fresh">
-                <x-feathericon-plus/> Add New Service
+                <x-feathericon-plus/> Add New Promo
             </button>
         </div>
     </div>
 
     <div class="p-3">
         <div class="container d-flex flex-column justify-content-center align-items-center">
-            <h1>List of Services</h1>
-            @foreach ($services as $service)
-            <div class="shadow-sm w-100 d-flex justify-content-between align-items-center bg-secondary mt-3 p-2 rounded">
+            <h1>Current Promotions</h1>
+            @foreach ($promos as $promo)
+            <span class="mt-3" wire:loading wire:target="toggle({{ $promo->id }})">Changing promo status...</span>
+            <button class="btn btn-secondary mt-3" wire:click="toggle({{ $promo->id }})">
+                <x-feathericon-star/> <b>Toggle Promo Status</b>
+            </button>
+                @if ($promo->active)
+                <div class="d-flex justify-content-end bg-success p-1 rounded">
+                    <b class="text-white">This promotion is currently active.</b>
+                </div>
+                @elseif ($promo->active == false)
+                <div class="d-flex justify-content-end bg-danger p-1 rounded">
+                    <b class="text-white">This promotion is currently inactive.</b>
+                </div>
+                @endif
+            <div class="shadow-sm w-100 d-flex justify-content-between align-items-center bg-secondary p-2 rounded">
                 <div class="d-flex align-items-center p-1">
-                    <img src="{{ asset('images/services/'.$service->photo) }}" class="caption-photo border-primary rounded-circle" width="70" height="70" wire:model="services">
+                    <img src="{{ asset('images/promotions/'.$promo->photo) }}" class="caption-photo border-primary rounded" width="158" height="150" wire:model="services">
                     &nbsp;
-                    <h1 class="my-1">{{ $service->name }}</h1>
+                    <div class="d-flex flex-column">
+                        <h1 class="my-1">{{ $promo->title }}</h1>
+                        <span>{!! $promo->description !!}</span>
+                    </div>
                 </div>
                 <div>
-                    <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#form" wire:click="set({{ $service->id }})">
+                    <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#form" wire:click="set({{ $promo->id }})">
                         <x-feathericon-edit/>
                     </button>
-                    <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#delete" wire:click="set({{ $service->id }})">
-                        <x-feathericon-trash-2/>
-                    </button>
-                    <button class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#form-category" wire:click="setCategory(0, {{ $service->id }})">
-                        <x-feathericon-plus/> Category
-                    </button>
-                    <a class="btn btn-primary btn-sm" href="{{ route('admin-menus', ['id' => $service->id]) }}">
-                        <x-feathericon-menu/> Menu
-                    </a>
-                </div>
-            </div>
-
-            @foreach ($service->categories as $category)
-            <div class="py-1 d-flex justify-content-between align-items-center w-75 shadow-sm">
-                <div>
-                    <x-feathericon-corner-down-right/> <b>{{ $category->name }}</b>
-                </div>
-                <div>
-                    <button class="btn p-0 py-1" data-bs-toggle="modal" data-bs-target="#form-category" wire:click="setCategory({{ $category->id }}, {{ $service->id }})">
-                        <x-feathericon-edit/>
-                    </button>
-                    <button class="btn p-0 py-1" data-bs-toggle="modal" data-bs-target="#delete" wire:click="setCategory({{ $category->id }}, {{ $service->id }})">
+                    <button class="btn p-1" data-bs-toggle="modal" data-bs-target="#delete" wire:click="set({{ $promo->id }})">
                         <x-feathericon-trash-2/>
                     </button>
                 </div>
             </div>
-            @endforeach
-
             @endforeach
         </div>
     </div>
 
-    {{-- Form Services --}}
+    {{-- Form Promos --}}
     <div class="modal fade" tabindex="-1" id="form" wire:ignore.self>
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header bg-primary">
                     <h5 class="modal-title text-white">
-                        Service Form
+                        Promotions Form
                     </h5>
                     <button class="btn" data-bs-dismiss="modal">
                         <x-feathericon-x class="text-white"/>
@@ -67,12 +60,12 @@
                 </div>
                 <div class="modal-body">
                     <div class="mb-3">
-                        <label class="form-label">Additional Note on Prices: (Optional)</label>
+                        <label class="form-label">Promo Details:</label>
                         <div class="border border-primary rounded" wire:ignore>
-                            <textarea id="note" name="note" rows="3" wire:model.defer="note"></textarea>
+                            <textarea id="description" name="description" rows="3" wire:model.defer="description"></textarea>
                         </div>
                     </div>
-                    @error('note')
+                    @error('description')
                     <div class="mb-1 bg-danger text-white p-1 mt-1 text-center small rounded">
                         <span class="font-weight-bold">
                             {{ $message }}
@@ -81,10 +74,10 @@
                     @enderror
 
                     <div class="mb-3">
-                        <label class="form-label">Name of Service:</label>
-                        <input type="text" class="form-control text-capitalize border-primary" id="service-name" wire:model.defer="name">
+                        <label class="form-label">Promotion Title:</label>
+                        <input type="text" class="form-control text-capitalize border-primary" wire:model.defer="title">
                     </div>
-                    @error('name')
+                    @error('title')
                     <div class="bg-danger text-white p-1 mt-1 text-center small rounded">
                         <span class="font-weight-bold">
                             {{ $message }}
@@ -92,8 +85,13 @@
                     </div>
                     @enderror
 
+                    <div class="btn-group align-items-center mb-3" role="group" aria-label="Basic checkbox toggle button group">
+                        <input type="checkbox" class="btn-check" id="active" autocomplete="off" name="active" wire:model.defer="active">
+                        <label class="btn btn-outline-primary btn-sm rounded" for="active">Set as Active Promotion</label>
+                    </div>
+
                     <div class="mb-3">
-                        <label class="form-label">Set New Photo Caption:</label>
+                        <label class="form-label">Set New Promotion Photo:</label>
                         <input class="form-control font-weight-bold border-primary" type="file" wire:model.defer="new_photo">
                     </div>
                     @error('new_photo')
@@ -105,7 +103,7 @@
                     @enderror
                     
                     @if ($photo)
-                    <img src="{{ asset('images/services/'.$photo) }}" class="img-fluid">
+                    <img src="{{ asset('images/promotions/'.$photo) }}" class="img-fluid">
                     @endif
 
                     @if ($new_photo_preview)
@@ -126,46 +124,6 @@
             </div>
         </div>
     </div>
-
-    {{-- Form Category --}}
-    <div class="modal fade" tabindex="-1" id="form-category" wire:ignore.self>
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header bg-primary">
-                    <h5 class="modal-title text-white">
-                        Category Form
-                    </h5>
-                    <button class="btn" data-bs-dismiss="modal">
-                        <x-feathericon-x class="text-white"/>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="mb-3">
-                        <label class="form-label">Name of Category:</label>
-                        <input type="text" class="form-control text-capitalize border-primary" id="service-name" wire:model.defer="name_category">
-                    </div>
-                    @error('name_category')
-                    <div class="bg-danger text-white p-1 mt-1 text-center small rounded">
-                        <span class="font-weight-bold">
-                            {{ $message }}
-                        </span>
-                    </div>
-                    @enderror
-                </div>
-                <div class="modal-footer">
-                    <b class="text-success ml-0" wire:loading wire:target="save">
-                        Saving Record...
-                    </b>
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal" wire:click="fresh">
-                        <x-feathericon-x/> Cancel
-                    </button>
-                    <button type="button" class="btn btn-success" wire:click="saveCategory" wire:loading.attr="disabled">
-                        <x-feathericon-save/> Save
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
     
     {{-- Delete --}}
     <div class="modal fade"  tabindex="-1" id="delete" wire:ignore.self>
@@ -173,17 +131,14 @@
             <div class="modal-content">
                 <div class="modal-header bg-primary">
                     <h5 class="modal-title text-white">
-                        Are you sure to delete this record?
+                        Are you sure to delete this promotion?
                     </h5>
                     <button class="btn" data-bs-dismiss="modal">
                         <x-feathericon-x class="text-white"/>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <h1>
-                        {{ $name }}
-                        {{ $name_category }}
-                    </h1>
+                    <h1>{{ $title }}</h1>
                     
                     <b class="text-danger">
                         <x-feathericon-alert-circle/>
@@ -193,7 +148,7 @@
                 </div>
                 <div class="modal-footer">
                     <b class="text-success ml-0" wire:loading wire:target="delete">
-                        Deleting Record...
+                        Deleting Promotion...
                     </b>
                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
                         <x-feathericon-x/> Cancel
@@ -228,7 +183,6 @@
     <script>
         $(function(){
             $('#form').modal('hide');
-            $('#form-category').modal('hide');
             $('#delete').modal('hide');
             $('#success').modal('show');
         });
@@ -236,29 +190,29 @@
     @endif
 
     <script type="text/javascript">
-        // Initialize the tinymce editor for textarea#note
+        // Initialize the tinymce editor for textarea#description
         document.addEventListener('livewire:load', function() {
             tinymce.init({ 
-                selector: '#note',
+                selector: '#description',
                 height: '200',
                 statusbar: false,
                 menubar: false,
                 setup: function(editor) {
                     editor.on('change', function(e) {
-                        @this.set('note', editor.getContent());
+                        @this.set('description', editor.getContent());
                     });
                 }
             });
         });
 
-        // Event to set the tinymce editor for textarea#note
-        document.addEventListener('setNote', function(e) {
-            if (@this.note)
+        // Event to set the tinymce editor for textarea#description
+        document.addEventListener('setDescription', function(e) {
+            if (@this.description)
             {
-                tinymce.get('note').setContent(@this.note);
+                tinymce.get('description').setContent(@this.description);
             }
-            else if (@this.note == null) {
-                tinymce.get('note').setContent('');
+            else if (@this.description == null) {
+                tinymce.get('description').setContent('');
             }
         });
     </script>

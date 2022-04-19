@@ -32,7 +32,7 @@
     <div class="p-3">
         <div class="container">
             <div class="row g-2">
-                @foreach ($photos as $photo)
+                @foreach (json_decode($photos) as $photo)
                 <div class="col-lg-2 col-md-3 col-sm-4">    
                     <div class="d-flex flex-column justify-content-center align-items-center">
                         <a data-fslightbox href="{{ asset('images/gallery/store/'.$photo) }}">

@@ -28,8 +28,8 @@ class Galleries extends Component
 
     public function render()
     {
-        $this->photos = $this->getPhotos();
-
+        $this->photos = json_encode($this->getPhotos());
+        
         return view('admin/gallery')
             ->layout('admin/layout');
     }

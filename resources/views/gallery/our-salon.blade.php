@@ -14,12 +14,16 @@
 
 <div class="p-5 bg-warning" data-aos="fade-up" data-aos-duration="1000">
     <div class="container">
-        <div class="text-center">            
-            @for ($x = 1; $x <= 10; $x++)
-                <a data-fslightbox="gallery" href="{{ asset('images/gallery/store/'.$x.'.webp') }}">
-                    <img src="{{ asset('images/gallery/store/'.$x.'.webp') }}" class="img-thumbnail thumbnail m-2">
-                </a>
-            @endfor
+        <div class="row g-2">
+            @foreach ($photos as $photo)
+            <div class="col-lg-2 col-md-3 col-sm-4">    
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <a data-fslightbox href="{{ asset('images/gallery/store/'.$photo) }}">
+                        <img src="{{ asset('images/gallery/store/'.$photo) }}" class="img-thumbnail thumbnail">
+                    </a>
+                </div>
+            </div>
+            @endforeach
         </div>
     </div>
 </div>
