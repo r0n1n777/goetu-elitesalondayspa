@@ -53,7 +53,7 @@
                                         @foreach ($menu->prices as $price)
                                         <div class="d-flex justify-content-center align-items-center w-100 mb-1">
                                             <b class="bg-secondary rounded-pill p-1 px-2 border border-primary">
-                                                ${{ number_format($price->amount, 2, '.') }}@if ($price->amount_plus)+@endif
+                                                ${{ number_format($price->amount, 2) }}@if ($price->amount_plus)+@endif
                                             </b>
                                         </div>
                                         @endforeach
@@ -115,7 +115,7 @@
                                     @foreach ($menu->prices as $price)
                                     <div class="d-flex justify-content-center align-items-center w-100 mb-1">
                                         <b class="bg-secondary rounded-pill p-1 px-2 border border-primary">
-                                            ${{ number_format($price->amount, 2, '.') }}@if ($price->amount_plus)+@endif
+                                            ${{ number_format($price->amount, 2) }}@if ($price->amount_plus)+@endif
                                         </b>
                                     </div>
                                     @endforeach
