@@ -29,7 +29,7 @@
                             <a class="h5 nav-link text-white" href="{{ route('admin-promotions') }}">Promotions</a>
                         </li>
                         <li class="nav-item px-2">
-                            <a class="h5 nav-link text-white" href="">Messages</a>
+                            <a class="h5 nav-link text-white" href="{{ route('admin-messages') }}">Messages</a>
                         </li>
                         <li class="nav-item px-2">
                             <form method="post" action="{{ route('logout') }}">

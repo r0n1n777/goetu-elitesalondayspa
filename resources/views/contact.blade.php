@@ -3,6 +3,19 @@
 @section('title', 'Contact Us - Elite Salon Day Spa')
 
 @section('content')
+
+@if (session()->has('success'))
+<div class="bg-success text-white p-2 d-flex justify-content-center align-items-center">
+    <h3>{{ session()->get('success') }}</h3>
+</div>
+@endif
+
+@if (session()->has('failed'))
+<div class="bg-danger text-white p-2 d-flex justify-content-center align-items-center">
+    <h3>{{ session()->get('failed') }}</h3>
+</div>
+@endif
+
 <div class="p-5 contact-header bg-dark" data-aos="fade-left">
     <div class="container">
         <div class="d-flex justify-content-center align-items-center p-3">
@@ -68,27 +81,64 @@
                 <x-feathericon-mail/> Compose an email for us
             </a>
         </div>
-        {{-- <div class="row">
+        <div class="row">
+            
+        </div>
+    </div>
+</div>
+
+<div class="p-5 contact-header bg-primary" data-aos="fade-left">
+    <div class="container text-center">
+        <h1 class="text-xl text-white">SEND US A MESSAGE</h1>
+    </div>
+</div>
+
+<div id="send-message" class="p-5 bg-warning" data-aos="fade-up" data-aos-duration="1000">
+    <div class="container">
+        <div class="row">
             <div class="col d-flex justify-content-center align-items-center">
                 <div class="w-75">
-                    <h1 class="text-black font-weight-bold"><b>NAME</b></h1>
-                    <input type="text" class="form-control p-2 mb-4 text-capitalize rounded-0">
-                    <h1 class="text-black font-weight-bold"><b>EMAIL</b></h1>
-                    <input type="text" class="form-control p-2 mb-4 rounded-0">
-                    <h1 class="text-black font-weight-bold"><b>PHONE NUMBER</b></h1>
-                    <input type="phone" class="form-control p-2 mb-4 rounded-0">
-                    <h1 class="text-black font-weight-bold"><b>SUBJECT</b></h1>
-                    <input type="text" class="form-control p-2 mb-4 rounded-0">
-                    <h1 class="text-black font-weight-bold"><b>MESSAGE</b></h1>
-                    <textarea rows="6" class="form-control p-2 mb-4 rounded-0"></textarea>
-                    <div class="text-center">
-                        <a href="!#" class="btn btn-primary btn-lg rounded-pill text-secondary">
-                            <x-feathericon-mail/> SEND MESSAGE
-                        </a>
-                    </div>
+                    <form action="{{ route('send-message') }}" method="post">
+                        @csrf
+                        <h1 class="text-black font-weight-bold"><b>NAME</b></h1>
+                        <input type="text" class="form-control p-2 mb-4 text-capitalize rounded-0" name="name" required value="{{ old('name') }}">
+                        @error('name')
+                        <b class="text-danger">{{ $message }}</b>
+                        @enderror
+
+                        <h1 class="text-black font-weight-bold"><b>EMAIL</b></h1>
+                        <input type="text" class="form-control p-2 mb-4 rounded-0" name="email" required value="{{ old('email') }}">
+                        @error('email')
+                        <b class="text-danger">{{ $message }}</b>
+                        @enderror
+
+                        <h1 class="text-black font-weight-bold"><b>PHONE NUMBER</b></h1>
+                        <input type="phone" class="form-control p-2 mb-4 rounded-0" name="phone" required value="{{ old('phone') }}">
+                        @error('phone')
+                        <b class="text-danger">{{ $message }}</b>
+                        @enderror
+
+                        <h1 class="text-black font-weight-bold"><b>SUBJECT</b></h1>
+                        <input type="text" class="form-control p-2 mb-4 rounded-0" name="subject" required value="{{ old('subject') }}">
+                        @error('subject')
+                        <b class="text-danger">{{ $message }}</b>
+                        @enderror
+
+                        <h1 class="text-black font-weight-bold"><b>MESSAGE</b></h1>
+                        <textarea rows="6" class="form-control p-2 mb-4 rounded-0" name="message" required>{{ old('message') }}</textarea>
+                        @error('message')
+                        <b class="text-danger">{{ $message }}</b>
+                        @enderror
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill text-secondary">
+                                <x-feathericon-mail/> SEND MESSAGE
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </div> --}}
+        </div>
     </div>
 </div>
 @endsection

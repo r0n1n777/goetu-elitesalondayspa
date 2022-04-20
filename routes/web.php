@@ -5,11 +5,13 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\PromoController;
+use App\Http\Controllers\ContactController;
 
 use App\Http\Livewire\Services;
 use App\Http\Livewire\Menus;
 use App\Http\Livewire\Galleries;
 use App\Http\Livewire\Promotions;
+use App\Http\Livewire\Messages;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,6 +35,8 @@ Route::get('/services', [ServicesController::class, 'index'])->name('services');
 Route::get('/gallery/our-salon', [GalleryController::class, 'index'])->name('our-salon');
 Route::get('/promo', [PromoController::class, 'index'])->name('promo');
 
+Route::post('/contact', [ContactController::class, 'send'])->name('send-message');
+
 // Auth and Admin
 Auth::routes([
     'register' => false,
@@ -45,4 +49,5 @@ Route::group(['middleware' => 'auth'], function(){
     Route::get('/admin/menus/{id}', Menus::class)->name('admin-menus');
     Route::get('/admin/gallery', Galleries::class)->name('admin-gallery');
     Route::get('/admin/promotions', Promotions::class)->name('admin-promotions');
+    Route::get('/admin/messages', Messages::class)->name('admin-messages');
 });

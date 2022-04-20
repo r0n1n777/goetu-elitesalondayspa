@@ -126,7 +126,7 @@ class Services extends Component
         $this->resetValidation();
 
         $rules = [
-            'name_category' => 'required|unique:categories,name,'.$this->category_id.',id',
+            'name_category' => 'required',
         ];
 
         $this->validate($rules);

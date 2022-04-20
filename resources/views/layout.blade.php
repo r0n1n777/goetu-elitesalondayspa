@@ -137,7 +137,7 @@
                     </div>
                     <div class="modal-body d-flex flex-column align-items-center bg-warning">
                         <h5 class="text-center"><b>Please visit our salon to purchase your gift cards!</b></h5>
-                        {{-- <img src="{{ asset('images/gift-card.webp') }}" class="w-75 shadow-lg"> --}}
+                        <img src="{{ asset('images/gift-card.jpg') }}" class="w-75 shadow-lg">
                     </div>
                     <div class="modal-footer bg-primary rounded-0"></div>
                 </div>
