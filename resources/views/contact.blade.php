@@ -95,6 +95,7 @@
 
 <div id="send-message" class="p-5 bg-warning" data-aos="fade-up" data-aos-duration="1000">
     <div class="container">
+        <h3 class="text-center mb-5">Do you have questions or concerns? Please send us message, we will respond as quickly as possible.</h3>
         <div class="row">
             <div class="col d-flex justify-content-center align-items-center">
                 <div class="w-75">
