@@ -45,6 +45,7 @@
                                 <b>${{ $price->amount }}</b>
                                 @endforeach
                             </p>
+                            {!! $menu->description !!}
                             @endforeach
                         @endforeach
                         <p class="card-text d-flex justify-content-between align-items-end">

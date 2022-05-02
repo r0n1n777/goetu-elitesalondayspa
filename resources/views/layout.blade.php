@@ -18,19 +18,19 @@
             <a href="{{ route('home') }}">
                 <img src="{{ asset('images/logo-expand.webp') }}" width="300px" data-aos="fade-up">
             </a>
-            <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary rounded-pill text-secondary d-flex align-items-center border-secondary shadow h5 text-nowrap d-none d-md-flex">
+            {{-- <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary rounded-pill text-secondary d-flex align-items-center border-secondary shadow h5 text-nowrap d-none d-md-flex">
                 <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
-            </a>
+            </a> --}}
         </div>
         <nav class="navbar navbar-expand-xl navbar-light bg-primary sticky-top">
             <div class="container-fluid">
                 <a class="d-block d-md-block d-xl-none navbar-brand" href="{{ route('home') }}">
                     <img src="{{ asset('images/logo-expand.webp') }}" width="200px" data-aos="fade-up">
                 </a>
-                <a class="d-block d-md-block d-xl-none btn btn-secondary btn-lg" href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona">
+                {{-- <a class="d-block d-md-block d-xl-none btn btn-secondary btn-lg" href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona">
                     <x-feathericon-calendar/>
                     <b>BOOK NOW</b>
-                </a>
+                </a> --}}
                 <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#header" aria-controls="header" aria-expanded="false" aria-label="Toggle navigation">
                     <x-feathericon-menu/> MENU
                 </button>

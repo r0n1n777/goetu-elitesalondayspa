@@ -19,8 +19,8 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
-                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
+                <a href="tel:480-926-3333" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-phone/>&nbsp;<b>CALL US</b>
                 </a>
             </div>
         </div>
@@ -29,8 +29,8 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
-                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
+                <a href="tel:480-926-3333" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-phone/>&nbsp;<b>CALL US</b>
                 </a>
             </div>
         </div>
@@ -39,8 +39,8 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
-                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
+                <a href="tel:480-926-3333" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-phone/>&nbsp;<b>CALL US</b>
                 </a>
             </div>
         </div>
@@ -49,8 +49,8 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
-                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
+                <a href="tel:480-926-3333" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-phone/>&nbsp;<b>CALL US</b>
                 </a>
             </div>
         </div>
@@ -59,8 +59,8 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
-                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
+                <a href="tel:480-926-3333" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-phone/>&nbsp;<b>CALL US</b>
                 </a>
             </div>
         </div>
@@ -69,8 +69,8 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
-                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
+                <a href="tel:480-926-3333" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-phone/>&nbsp;<b>CALL US</b>
                 </a>
             </div>
         </div>
@@ -79,8 +79,8 @@
             <div class="d-flex flex-column justify-content-center align-items-center w-100 h-100 carousel-content">
                 <h1 class="text-white text-xl text-center">BOOK AN APPOINTMENT</h1>
                 <div class="p-1 w-25 bg-secondary mt-3 mb-5"></div>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
-                    <x-feathericon-calendar/>&nbsp;<b>BOOK ONLINE</b>
+                <a href="tel:480-926-3333" class="btn btn-primary btn-lg rounded-pill text-secondary text-lg d-flex align-items-center border-secondary shadow">
+                    <x-feathericon-phone/>&nbsp;<b>CALL US</b>
                 </a>
             </div>
         </div>
@@ -108,10 +108,12 @@
                 </a>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6" data-tilt>
-                <a href="https://salons.go3reservation.com/elite-salon-day-spa-53-n-val-vista-drive-suite-103-gilbert-arizona" target="_blank">
-                    <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center border border-secondary shadow-sm rounded" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                        <img src="{{ asset('images/home/section-menu/book.webp') }}" class="img-fluid">
-                        <h3 class="text-secondary"><b>BOOK ONLINE</b></h3>
+                <a href="tel:480-926-3333" target="_blank">
+                    <div class="bg-primary rounded p-1 d-flex justify-content-center align-items-center border border-secondary shadow-sm rounded h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                        <h3 class="text-secondary border border-secondary rounded-pill p-3">
+                            <x-feathericon-phone/>
+                            <b>CALL US</b>
+                        </h3>
                     </div>
                 </a>
             </div>
@@ -134,7 +136,10 @@
             <div class="col-md-4 col-sm-6 col-xs-6" data-tilt>
                 <a href="{{ route('rate') }}/#follow-us">
                     <div class="bg-primary rounded p-1 d-flex flex-column justify-content-center align-items-center h-100" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                        <h3 class="text-secondary border border-secondary rounded-pill p-3">FOLLOW US</h3>
+                        <h3 class="text-secondary border border-secondary rounded-pill p-3">
+                            <x-feathericon-star/>
+                            FOLLOW US
+                        </h3>
                     </div>
                 </a>
             </div>
